@@ -1,0 +1,347 @@
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700;900&display=swap');
+.main-header{
+    /* background-color: black; */
+  
+    background: url(../image/city2_bg.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+ 
+    
+}
+.main-header:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    /* background-color: #00a651; */
+    background-color: #000;
+    opacity: .7;
+    z-index: -1;
+}
+.header-left a img {
+    /* height: 60px; */
+    width: 72px;
+    height: auto;
+}
+
+div#navbarText ul li a {
+    color: #fff;
+    margin-left: 22px;
+    position: relative;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+div#navbarText ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #FE5B00;
+    bottom: 0px;
+    left: -100%;
+    transition: all .3s ease-in-out;
+    
+}
+div#navbarText ul li a:hover:after{
+    left: 0;
+}
+div#navbarText ul li a:hover{
+    color: #FE5B00
+}
+
+.main-header-subContent{
+    padding-top: 100px;
+    color:#fff;
+}
+.title-sec {
+    text-align: center;
+    /* position: absolute; */
+    /* left: 50%;
+    top: 40%; */
+    /* transform: translate(-50%, -50%); */
+}
+.title-sec h1 {
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: url('../image/himalaya.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 41% 37%;
+    margin-bottom: 40px;
+}
+/* .title-sec a {
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.24em;
+    color: #FFF;
+    border: 2px solid #FE5B00;
+    padding: 14px 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s ease;
+} */
+.description{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.desc-text a{
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.24em;
+    color: #FFF;
+    border: 2px solid #FE5B00;
+    padding: 14px 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.desc-text a:hover{
+    /* color: yellowgreen; */
+    color: Yellow;
+    background: #000;
+}
+
+
+/* ============= fake-news-detection section start 02=============== */
+
+.fake-news-detection-content {
+    padding-top:  50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fake-news-detection-content h5 {
+    font-family: roboto;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+.fake-news-detection-content h3 {
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 600px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: #033b4a;
+}
+.fake-news-detection-content p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #9dadaf;
+    line-height: 24px;
+}
+.form button {
+    margin-top: 17px;
+    padding: 4px 24px;
+}
+/* ============= fake-news-detection section start 02=============== */
+/* ============= introduce us part 03 start =============== */
+.introduce{
+    background: #151112;
+}
+.introduce-content {
+    padding-top:  50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.introduce-content h5 {
+    font-family: roboto;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.introduce-content h3 {
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 600px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: #95f3bc;
+}
+.introduce-content p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #9dadaf;
+    line-height: 24px;
+}
+
+
+
+.team {
+    background: #fefefe;
+}
+
+.team-single {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 3px 13px 6px rgba(0,0,0,0.25);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 3px 13px 6px rgba(0,0,0,0.25);
+}
+
+.team-single img {
+    width: 100%;
+    height: 300px;
+}
+
+.team-single span {
+    color: #757575;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 13px 0px 5px 0px;
+    display: inline-block;
+    text-align: center;
+      transition: 0.5s;
+}
+
+.team-single h3 {
+    color: #033b4a;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 21px;
+      transition: 0.5s;
+}
+.team-single:hover{
+    background: #00d6a3;
+}
+.team-single:hover span,
+.team-single:hover h3{
+    color: #fff;
+}
+.team-single-img{
+    position: relative;
+}
+.team-single-img:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #033b48;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    /* opacity: 0; na diye display: none; visibility: hidden; diye o kora jay*/
+}
+.team-single:hover .team-single-img:before{
+    opacity: 0.8;
+    /* opacity: .8; na diye display: block; visibility: visible; diye o kora jay tobe opacaity use korai valo*/
+}
+
+
+.team-single-img span {
+    background-color: #08d6a5;
+    position: absolute;
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    /* text-align: center; */
+    line-height: 4px;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.team-single:hover .team-single-img span{
+    opacity: 1;
+    transform: scale(1.9)
+}
+
+
+/* ============= introduce us part 03 end   =============== */
+/* ============= detector part last end=============== */
+.detection{
+    background: url('../image/bg.png');
+    background-repeat:  no-repeat;
+   background-position: center;
+   background-size: cover;
+    /*background: #22B369;*/	
+       padding: 1px 0 2px;
+   position: relative;
+   z-index: 1;
+}
+.detection:before {
+    content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   /* background-color: #00a651; */
+   background:#033b4a;
+   /* background-color: #000; */
+   left: 0;
+   top: 0;
+   z-index: -1;
+   opacity: .9;
+}
+.results{
+    padding-top:20px;
+}
+.results h2 {
+    font-size: 24px;
+    /* line-height: 38px; */
+}
+/* ============= detector part last end=============== */
+
+ /* ======start footer-bottom section 15 ------- */
+ footer.footer-bottom {
+    background: #013340;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: #ddd;
+}
+.footer-content span {
+    /* font-size: 15px; */
+    color: #00d6ba;
+}
+.footer-content a{
+    color: #ddd;
+    text-transform: capitalize;
+    position: relative;
+    margin-right: 20px;
+    text-decoration: none;
+
+    transition: .5s;
+
+}
+.footer-content a:hover{
+    color: #00d6a3;
+    }
+.footer-content a:before {
+    position: absolute;
+    content: "";
+    background-color: #ddd;
+    height: 20px;
+    width: 2px;
+    right: -13px;
+    top: 6px;
+}
+.footer-content .last-footer-content:before{
+    display: none;
+}
+
+/* ============= introduce us part 03 start =============== */
+/* ============= introduce us part 03 end   =============== */
