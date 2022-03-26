@@ -8,6 +8,6 @@ dataset link: https://www.kaggle.com/c/fake-news/data
 # To make connection between website and ml file i use flask .Also, for backend. To transfer data and storing the model to verctorizer.pkl and testing a title string i use flask.
 # To run use flask run
 ## Thank you ):
-[ive LInk](https://fake-news-classification12.herokuapp.com/)
+[Live LInk](https://fake-news-classification12.herokuapp.com/)
 
 
