@@ -227,7 +227,9 @@ div#navbarText ul li a:hover{
     color: #fff;
 }
 .team-single-img{
+    margin: 30px;
     position: relative;
+ 
 }
 .team-single-img:before{
     position: absolute;
@@ -345,3 +347,8 @@ div#navbarText ul li a:hover{
 
 /* ============= introduce us part 03 start =============== */
 /* ============= introduce us part 03 end   =============== */
+.service-right-img.pt-5 img {
+    /* height: 311px; */
+    width: 100%;
+    height: auto;
+}

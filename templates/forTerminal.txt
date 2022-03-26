@@ -5,4 +5,5 @@ pip install pandas numpy sklearn flask gunicorn
 pip install s
 klearn
 pip install flask
+venv/scripts/activate
 flask run
